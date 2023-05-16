@@ -4,6 +4,19 @@
 
 package.xml
 
+# These metadata files are ignored when promoting (deploying)
+**/appMenus/**
+**/appSwitcher/**
+**/fieldRestrictionRules/**
+**/objectTranslations/**
+**/profiles/**
+**/profilePasswordPolicy/**
+**/profileSessionSetting/**
+**/settings/**
+**/sharingRules/**
+**/AuthProvider/**
+
+
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
